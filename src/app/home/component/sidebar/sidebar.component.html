@@ -1,0 +1,25 @@
+<div class="sidebar">
+    <div class="sidebar-inner" *ngIf='menuItems'>
+        <div class="sidebar-list full-navigation">
+            <a routerLinkActive="active" routerLink="{{menuItem.path}}" class="sidebar-item"
+                *ngFor='let menuItem of menuItems'>
+                <i class="mr-3" [ngClass]="menuItem.icon"></i>
+                <h4 class="mb-0">
+                    {{menuItem.title}}
+                </h4>
+            </a>
+            <a routerLink='/profile' routerLinkActive="active" class="sidebar-item d-block d-lg-none">
+                <i class="asp-user mr-2"></i>
+                <h4 class="mb-0">
+                    Profile
+                </h4>
+            </a>
+            <a routerLink='/setting' routerLinkActive="active" class="sidebar-item d-block d-lg-none">
+                <i class="asp-settings mr-2"></i>
+                <h4 class="mb-0">
+                    settings
+                </h4>
+            </a>
+        </div>
+    </div>
+</div>

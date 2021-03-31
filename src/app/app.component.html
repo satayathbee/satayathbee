@@ -1,0 +1,11 @@
+<app-loader></app-loader>
+<div [className]="loading ? 'd-none':''">
+  <router-outlet (deactivate)="onDeactivate()"></router-outlet>
+</div>
+<div class="full-page-loader" *ngIf='loading'>
+  <div *ngIf="loading" id="overlay" class="d-flex align-items-center">
+    <div class="spinner-border m-auto text-light" style="width: 8rem; height: 8rem;" role="status" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
+</div>

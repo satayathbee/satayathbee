@@ -1,0 +1,32 @@
+.header {
+    box-shadow: 0 3px 10px rgba(59, 59, 59, 0.1);
+    background-color: #ffffff;
+    padding: 0.8rem 1rem;
+    .header-inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .logo-wrapper {
+            padding: 0.4rem 1rem;
+            border-radius: 10px;
+            background-color: #dabdbe;
+            .logo-inner {
+                h4 {
+                    margin: 0;
+                    color: var(--maroon);
+                    // font-family: "Noto Sans";
+                    font-size: 1rem;
+                    font-weight: 600;
+                    font-style: normal;
+                    letter-spacing: normal;
+                    line-height: normal;
+                    text-align: left;
+                    /* Text style for "Logo" */
+                    font-style: normal;
+                    letter-spacing: normal;
+                    line-height: normal;
+                }
+            }
+        }
+    }
+}

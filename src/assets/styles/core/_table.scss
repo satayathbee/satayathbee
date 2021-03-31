@@ -1,0 +1,42 @@
+/*------------------------------------
+  Datatable
+------------------------------------*/
+.dataTables_length,
+.dataTables_filter,
+.dataTables_info {
+    display: none;
+}
+
+.sorting {
+	&:hover {
+		cursor: pointer;
+	}
+}
+.sorting_asc {
+	&:hover {
+		cursor: pointer;
+	}
+	.link-sorting-asc {
+		color: #8069f2;
+	}
+}
+.sorting_desc {
+	&:hover {
+		cursor: pointer;
+	}
+	.link-sorting-desc {
+		color: #8069f2;
+	}
+}
+.link-sorting-desc {
+	color: #cdced6;
+	&:hover {
+		color: #cdced6;
+	}
+}
+.link-sorting-asc {
+	color: #cdced6;
+	&:hover {
+		color: #cdced6;
+	}
+}

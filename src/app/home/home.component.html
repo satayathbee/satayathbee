@@ -1,0 +1,13 @@
+<app-header></app-header>
+<div class="main " [ngClass]='{"sidebar-closed":isCollapsed}' *ngIf='isLogged'>
+    <div class="sidebar-outer ">
+        <span class="close-icon" (click)='isCollapsed = !isCollapsed'>
+            <i class="fa fa-chevron-left  m-0"></i>
+        </span>
+        <div class="closed-overlay"></div>
+        <app-sidebar *ngIf='!isCollapsed'></app-sidebar>
+    </div>
+    <div class="content">
+        <router-outlet></router-outlet>
+    </div>
+</div>

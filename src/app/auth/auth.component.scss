@@ -1,0 +1,488 @@
+
+
+.BorderCorner {
+    border: 10px solid #8d8d8d;
+    display: inline-block;
+    margin: 100px 100px;
+    padding: 35px;
+    position: relative;
+    width: auto;
+    border-radius: 5px;
+}
+
+.BorderCorner div {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+    z-index: 5;
+}
+
+.BorderCorner::before,
+.BorderCorner::after {
+    content: "";
+    position: absolute;
+    background: white;
+}
+
+.BorderCorner::before {
+    width: calc(100% - 30px);
+    height: calc(100% - 30px);
+    top: -10px;
+    left: 40px;
+    z-index: 1;
+}
+
+.BorderCorner::after {
+    height: calc(100% - 30px);
+    width: calc(100% - 30px);
+    left: -10px;
+    top: 40px;
+    z-index: 1;
+}
+
+.BorderCorner .btn-block {
+    min-width: 350px;
+}
+
+.header1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #001f33;
+    margin-top: 30px;
+    color: #114b5f;
+}
+
+.cpadding {
+    padding-bottom: 20px;
+}
+
+.primary-btn {
+    background-color: #114b5f !important;
+}
+
+.overlay {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 100;
+}
+
+.api-loader {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    z-index: 10000;
+}
+
+.api-loader > div {
+    display: inline-block;
+    background-color: white;
+    top: 40%;
+    position: relative;
+    padding: 15px 42px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 4px 1px #001f33;
+    -moz-box-shadow: 0px 0px 4px 1px #001f33;
+    -o-box-shadow: 0px 0px 4px 1px #001f33;
+    -webkit-box-shadow: 0px 0px 4px 1px #001f33;
+}
+
+.loading-text {
+    color: #001f33;
+    font-size: 20px;
+}
+
+.login-title {
+    color: #001f33;
+    font-size: 65px;
+    font-weight: bold;
+}
+
+.login-box {
+    background: #001f33;
+    box-shadow: -2px -1px 1px 1px #ababab;
+    color: #fff;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+.login-box .forgot-password {
+    float: right;
+    margin-right: 94px;
+    padding: 7px;
+}
+
+.api-loader {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    z-index: 10000;
+}
+
+.api-loader > div {
+    display: inline-block;
+    color: white;
+    top: 40%;
+    position: relative;
+    padding: 15px 42px;
+}
+
+.loading-text {
+    color: #2c2e3e;
+    font-size: 20px;
+}
+
+.progress-loader {
+    font-size: 20px;
+    display: inline-block;
+    width: 300px;
+    color: white;
+}
+
+.progress-border {
+    border-bottom: solid 1px lightgrey;
+    padding: 10px;
+    font-size: 21px;
+}
+
+.dd-center {
+    align-items: center;
+    display: flex;
+}
+
+.dd-input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: solid 2px rgba(255, 255, 255, 0.26);
+    margin: 10px;
+    padding: 8px 20px;
+    width: 60%;
+}
+.dd-input:focus {
+    border: 0;
+    border-bottom: solid 2px #fff;
+    outline: 0;
+}
+.dd-input:disabled {
+    background: #f5f4f4;
+    border-bottom: solid 2px #ababab;
+    cursor: not-allowed;
+}
+
+.dd-input-group i,
+.dd-input-group img {
+    position: relative;
+}
+
+.dd-input-group i {
+    left: 10px;
+    width: 11px;
+}
+
+.dd-input-group img {
+    left: 21px;
+    width: 19px;
+}
+
+.dd-input-group .dd-input {
+    margin-left: -1px;
+    padding-left: 36px;
+}
+
+.dd-btn {
+    border: 0;
+    box-shadow: 0 0 1px 1px #1b1a1a;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 6px;
+    width: 60%;
+}
+.dd-btn:hover,
+.dd-btn:focus {
+    background-color: rgba(255, 255, 255, 0.86);
+    box-shadow: 0 0 2px 2px;
+}
+.dd-btn:disabled {
+    background-color: #f5f4f4;
+    box-shadow: 0 0 1px 1px;
+    cursor: not-allowed;
+}
+
+.primary {
+    background-color: #fff;
+    color: #001f33;
+}
+
+.primary-white {
+    color: #fff;
+}
+
+.sm-text {
+    font-size: 12px;
+}
+
+.sidemenu-title {
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: white;
+    padding: 15px;
+}
+
+.sidemenu {
+    background-color: #003d62;
+    height: 100vh;
+    position: fixed;
+    padding: 0;
+    z-index: 10;
+}
+
+.right-sidemenu {
+    background-color: #fbfbfb;
+    height: 100vh;
+    padding: 0;
+    overflow: auto;
+}
+
+.sidemenu-ul {
+    list-style-type: none;
+    color: #9aabb8;
+    padding: 0;
+}
+.sidemenu-ul .menu-item {
+    padding: 8px 15px;
+    cursor: pointer;
+}
+.sidemenu-ul .menu-item i {
+    width: 30px;
+    text-align: center;
+    font-size: 16px;
+    padding: 0 5px;
+}
+.sidemenu-ul .menu-item span {
+    font-size: 16px;
+}
+.sidemenu-ul .menu-item:hover,
+.sidemenu-ul .selected {
+    background-color: #003859;
+    color: #00bfa8;
+}
+.sidemenu-ul .sub-menu {
+    background-color: #003859;
+    color: white;
+    font-size: 15px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+.sidemenu-ul .sub-menu ul {
+    list-style: disc;
+}
+.sidemenu-ul .sub-menu ul li {
+    padding: 3px 0px;
+    cursor: pointer;
+}
+.sidemenu-ul .sub-menu ul li.selected,
+.sidemenu-ul .sub-menu ul li:hover {
+    color: #00bfa8;
+}
+
+.btn-group .btn {
+    border-radius: 15px;
+}
+
+.btn-group .selected,
+.btn-group .selected:hover,
+.btn-group .selected:focus,
+.btn-group .selected:active {
+    background-color: #7858ff !important;
+    border-color: #7858ff;
+    color: white !important;
+}
+
+.btn-group .btn-primary,
+.btn-group .btn-primary:focus,
+.btn-group .btn-primary:hover,
+.btn-group .btn-primary:active {
+    background-color: white;
+    color: grey;
+    outline: none;
+}
+
+.select-container {
+    display: inline-block;
+    width: 140px;
+}
+
+.margin-right-15 {
+    margin-right: 15px;
+}
+
+.margin-both {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.header-box {
+    height: 45px;
+    z-index: 5;
+    position: fixed;
+    left: 0;
+    right: 0;
+    box-shadow: 1px 1px 1px 1px #ececec;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.year-ul {
+    min-width: 30px !important;
+    width: 80px;
+    right: 0px;
+    left: auto;
+    height: 250px;
+    overflow: auto;
+}
+
+.year-li {
+    padding: 3px 5px;
+    text-align: center;
+}
+
+.year-li:hover {
+    color: #001f33;
+    cursor: pointer;
+}
+
+.box {
+    background-color: white;
+    box-shadow: 0 1px 13px 3px #f1f0f0;
+    border-radius: 3px;
+    min-height: 230px;
+}
+
+.box-title {
+    padding: 10px;
+    line-height: 1.5em;
+    text-align: center;
+    font-size: 17px;
+}
+
+.hospital-dropdown {
+    padding: 5px;
+    border-radius: 13px;
+    width: 200px;
+}
+
+.chart {
+    height: 160px;
+}
+
+/*.chart g text{
+    visibility: hidden;
+  }*/
+.revenue_gen {
+    width: 150px;
+    height: 150px;
+    background-color: #14578a;
+    border-radius: 80px;
+    margin: 10px auto;
+}
+.revenue_gen label {
+    display: block;
+    color: white;
+    font-size: 27px;
+    position: relative;
+    text-align: center;
+    top: 38%;
+}
+
+.c3-chart-arc text {
+    fill: black;
+}
+
+.legend-container {
+    display: flex;
+    align-items: center;
+    height: 160px;
+}
+.legend-container .legend-item {
+    text-align: left;
+}
+.legend-container .legend-item .legend-box {
+    height: 14px;
+    width: 14px;
+    margin: 4px;
+    border-radius: 4px;
+    display: inline-block;
+}
+.legend-container .legend-item .legend-label {
+    vertical-align: top;
+    display: inline-block;
+}
+
+.legend-container-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.legend-container-top .legend-item {
+    padding: 0px 10px;
+}
+.legend-container-top .legend-item .legend-box {
+    height: 12px;
+    width: 12px;
+    margin: 0px 4px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.legend-container-top .legend-item .legend-label {
+    vertical-align: top;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.primary-font {
+    color: #001f33;
+}
+
+.grey-200 {
+    color: #4a4a4a;
+}
+
+.factor-key {
+    color: grey;
+    font-size: 18px;
+    margin-top: 6px;
+}
+
+.factor-val {
+    color: #134f5c;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.filter-select {
+    color: black;
+    font-size: 15px;
+}
+
+.filter-box {
+    font-size: 15px;
+    color: #585858;
+    border: solid 1px grey;
+    border-radius: 2px;
+    padding: 2px 5px;
+}
+
+.no-data {
+    color: darkgrey;
+    font-size: 30px;
+    padding-top: 50px;
+    text-align: center;
+}

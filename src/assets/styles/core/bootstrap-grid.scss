@@ -1,0 +1,64 @@
+/*!
+ * Bootstrap Grid v4.5.2 (https://getbootstrap.com/)
+ * Copyright 2011-2020 The Bootstrap Authors
+ * Copyright 2011-2020 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
+
+html {
+  box-sizing: border-box;
+  -ms-overflow-style: scrollbar;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+
+
+@import "functions";
+@import "variables";
+
+@import "mixins/breakpoints";
+@import "mixins/hover";
+@import "mixins/box-shadow";
+@import "mixins/grid-framework";
+@import "mixins/grid";
+@import "mixins/border-radius";
+@import "mixins/buttons";
+@import "mixins/screen-reader";
+@import "mixins/table-variants";
+
+
+// @import "mixins/size";
+// @import "mixins/reset-text";
+// @import "mixins/text-emphasis";
+// @import "mixins/text-hide";
+// @import "mixins/text-truncate";
+
+@import "grid";
+@import "utilities/display";
+@import "utilities/flex";
+@import "utilities/sizing";
+
+@import "root";
+@import "utilities/spacing";
+@import "reboot";
+
+@import "nav";
+@import "navbar";
+@import "alert";
+@import "forms";
+@import "input";
+@import "custom-form";
+@import "card";
+@import "tables";
+@import "table";
+@import "button-group";
+@import "buttons";
+@import "social-buttons";
+@import "progress";

@@ -1,0 +1,867 @@
+
+@font-face {
+	font-family:'amrtya-icons';src:url("amrtya-iconsc17f.ttf?v4xwry") format("truetype"),url("amrtya-iconsc17f.woff?v4xwry") format("woff"),url("amrtya-iconsc17f.svg?v4xwry#amrtya-icons") format("svg");font-weight:normal;font-style:normal;
+}
+
+[class^="asp-"],[class*=" asp-"] {
+	display: inline-block;
+	font-family: 'amrtya-icons' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+}
+
+.asp-add-circle::before {
+	content: "\e900";
+}
+
+.asp-add-document::before {
+	content: "\e901";
+}
+
+.asp-add-location::before {
+	content: "\e902";
+}
+
+.asp-add::before {
+	content: "\e903";
+}
+
+.asp-announcement::before {
+	content: "\e904";
+}
+
+.asp-arrow-down-circle::before {
+	content: "\e905";
+}
+
+.asp-arrow-down::before {
+	content: "\e906";
+}
+
+.asp-arrow-left-circle::before {
+	content: "\e907";
+}
+
+.asp-arrow-left::before {
+	content: "\e908";
+}
+
+.asp-arrow-right-circle::before {
+	content: "\e909";
+}
+
+.asp-arrow-right::before {
+	content: "\e90a";
+}
+
+.asp-arrow-up-circle::before {
+	content: "\e90b";
+}
+
+.asp-arrow-up::before {
+	content: "\e90c";
+}
+
+.asp-arrows-horizontal::before {
+	content: "\e90d";
+}
+
+.asp-arrows-vertical::before {
+	content: "\e90e";
+}
+
+.asp-bag::before {
+	content: "\e90f";
+}
+
+.asp-basket::before {
+	content: "\e910";
+}
+
+.asp-behance::before {
+	content: "\e911";
+}
+
+.asp-bell::before {
+	content: "\e912";
+}
+
+.asp-bluetooth::before {
+	content: "\e913";
+}
+
+.asp-book::before {
+	content: "\e914";
+}
+
+.asp-bookmark::before {
+	content: "\e915";
+}
+
+.asp-briefcase::before {
+	content: "\e916";
+}
+
+.asp-calculator::before {
+	content: "\e917";
+}
+
+.asp-camera::before {
+	content: "\e918";
+}
+
+.asp-card::before {
+	content: "\e919";
+}
+
+.asp-cart::before {
+	content: "\e91a";
+}
+
+.asp-chat::before {
+	content: "\e91b";
+}
+
+.asp-check-circle::before {
+	content: "\e91c";
+}
+
+.asp-check::before {
+	content: "\e91d";
+}
+
+.asp-clip::before {
+	content: "\e91e";
+}
+
+.asp-close-circle::before {
+	content: "\e91f";
+}
+
+.asp-close::before {
+	content: "\e920";
+}
+
+.asp-cloud-check::before {
+	content: "\e921";
+}
+
+.asp-cloud-download::before {
+	content: "\e922";
+}
+
+.asp-cloud-upload::before {
+	content: "\e923";
+}
+
+.asp-cloud::before {
+	content: "\e924";
+}
+
+.asp-coin::before {
+	content: "\e925";
+}
+
+.asp-coins::before {
+	content: "\e926";
+}
+
+.asp-currency-exchange::before {
+	content: "\e927";
+}
+
+.asp-delete-document::before {
+	content: "\e928";
+}
+
+.asp-delete-folder::before {
+	content: "\e929";
+}
+
+.asp-delete-location::before {
+	content: "\e92a";
+}
+
+.asp-diamond::before {
+	content: "\e92b";
+}
+
+.asp-document-alt::before {
+	content: "\e92c";
+}
+
+.asp-document::before {
+	content: "\e92d";
+}
+
+.asp-dollar-circle::before {
+	content: "\e92e";
+}
+
+.asp-dollar::before {
+	content: "\e92f";
+}
+
+.asp-dribbble::before {
+	content: "\e930";
+}
+
+.asp-earphones::before {
+	content: "\e931";
+}
+
+.asp-edit-alt::before {
+	content: "\e932";
+}
+
+.asp-edit::before {
+	content: "\e933";
+}
+
+.asp-euro-circle::before {
+	content: "\e934";
+}
+
+.asp-euro::before {
+	content: "\e935";
+}
+
+.asp-exit-full-screen::before {
+	content: "\e936";
+}
+
+.asp-eye::before {
+	content: "\e937";
+}
+
+.asp-facebook::before {
+	content: "\e938";
+}
+
+.asp-filter-alt::before {
+	content: "\e939";
+}
+
+.asp-filter::before {
+	content: "\e93a";
+}
+
+.asp-flag::before {
+	content: "\e93b";
+}
+
+.asp-folder::before {
+	content: "\e93c";
+}
+
+.asp-forward::before {
+	content: "\e93d";
+}
+
+.asp-full-screen::before {
+	content: "\e93e";
+}
+
+.asp-gift::before {
+	content: "\e93f";
+}
+
+.asp-globe::before {
+	content: "\e940";
+}
+
+.asp-google::before {
+	content: "\e941";
+}
+
+.asp-hangouts::before {
+	content: "\e942";
+}
+
+.asp-heart-circle::before {
+	content: "\e943";
+}
+
+.asp-heart::before {
+	content: "\e944";
+}
+
+.asp-help::before {
+	content: "\e945";
+}
+
+.asp-home::before {
+	content: "\e946";
+}
+
+.asp-idea::before {
+	content: "\e947";
+}
+
+.asp-image::before {
+	content: "\e948";
+}
+
+.asp-increase::before {
+	content: "\e949";
+}
+
+.asp-instagram::before {
+	content: "\e94a";
+}
+
+.asp-joystick::before {
+	content: "\e94b";
+}
+
+.asp-key::before {
+	content: "\e94c";
+}
+
+.asp-lable::before {
+	content: "\e94d";
+}
+
+.asp-laptop::before {
+	content: "\e94e";
+}
+
+.asp-lightning::before {
+	content: "\e94f";
+}
+
+.asp-link::before {
+	content: "\e950";
+}
+
+.asp-linkedin::before {
+	content: "\e951";
+}
+
+.asp-list::before {
+	content: "\e952";
+}
+
+.asp-loading::before {
+	content: "\e953";
+}
+
+.asp-location::before {
+	content: "\e954";
+}
+
+.asp-locked::before {
+	content: "\e955";
+}
+
+.asp-mail::before {
+	content: "\e956";
+}
+
+.asp-map::before {
+	content: "\e957";
+}
+
+.asp-menu-circle::before {
+	content: "\e958";
+}
+
+.asp-menu::before {
+	content: "\e959";
+}
+
+.asp-message::before {
+	content: "\e95a";
+}
+
+.asp-messenger::before {
+	content: "\e95b";
+}
+
+.asp-mobile::before {
+	content: "\e95c";
+}
+
+.asp-money-bag::before {
+	content: "\e95d";
+}
+
+.asp-money-box::before {
+	content: "\e95e";
+}
+
+.asp-moon::before {
+	content: "\e95f";
+}
+
+.asp-music::before {
+	content: "\e960";
+}
+
+.asp-navigation::before {
+	content: "\e961";
+}
+
+.asp-odnoklassniki::before {
+	content: "\e962";
+}
+
+.asp-package::before {
+	content: "\e963";
+}
+
+.asp-percent::before {
+	content: "\e964";
+}
+
+.asp-phone::before {
+	content: "\e965";
+}
+
+.asp-pinterest::before {
+	content: "\e966";
+}
+
+.asp-plane::before {
+	content: "\e967";
+}
+
+.asp-play-circle::before {
+	content: "\e968";
+}
+
+.asp-play::before {
+	content: "\e969";
+}
+
+.asp-reduce::before {
+	content: "\e96a";
+}
+
+.asp-reload::before {
+	content: "\e96b";
+}
+
+.asp-remove-document::before {
+	content: "\e96c";
+}
+
+.asp-remove-folder::before {
+	content: "\e96d";
+}
+
+.asp-reply::before {
+	content: "\e96e";
+}
+
+.asp-rocket::before {
+	content: "\e96f";
+}
+
+.asp-ruler::before {
+	content: "\e970";
+}
+
+.asp-scroll::before {
+	content: "\e971";
+}
+
+.asp-search::before {
+	content: "\e972";
+}
+
+.asp-security-announcement::before {
+	content: "\e973";
+}
+
+.asp-security-check::before {
+	content: "\e974";
+}
+
+.asp-security-close::before {
+	content: "\e975";
+}
+
+.asp-security-prohibition::before {
+	content: "\e976";
+}
+
+.asp-send::before {
+	content: "\e977";
+}
+
+.asp-server-alt::before {
+	content: "\e978";
+}
+
+.asp-server::before {
+	content: "\e979";
+}
+
+.asp-settings::before {
+	content: "\e97a";
+}
+
+.asp-share-alt::before {
+	content: "\e97b";
+}
+
+.asp-share::before {
+	content: "\e97c";
+}
+
+.asp-skype::before {
+	content: "\e97d";
+}
+
+.asp-smile::before {
+	content: "\e97e";
+}
+
+.asp-star-filled::before {
+	content: "\e97f";
+}
+
+.asp-star::before {
+	content: "\e980";
+}
+
+.asp-sun::before {
+	content: "\e981";
+}
+
+.asp-support::before {
+	content: "\e982";
+}
+
+.asp-target::before {
+	content: "\e983";
+}
+
+.asp-telegram::before {
+	content: "\e984";
+}
+
+.asp-thumb-up::before {
+	content: "\e985";
+}
+
+.asp-time::before {
+	content: "\e986";
+}
+
+.asp-trash::before {
+	content: "\e987";
+}
+
+.asp-tumblr::before {
+	content: "\e988";
+}
+
+.asp-turn-off::before {
+	content: "\e989";
+}
+
+.asp-twitter::before {
+	content: "\e98a";
+}
+
+.asp-unlocked::before {
+	content: "\e98b";
+}
+
+.asp-user-circle::before {
+	content: "\e98c";
+}
+
+.asp-user::before {
+	content: "\e98d";
+}
+
+.asp-viber::before {
+	content: "\e98e";
+}
+
+.asp-video::before {
+	content: "\e98f";
+}
+
+.asp-view-grid::before {
+	content: "\e990";
+}
+
+.asp-view-list::before {
+	content: "\e991";
+}
+
+.asp-vimeo::before {
+	content: "\e992";
+}
+
+.asp-vk::before {
+	content: "\e993";
+}
+
+.asp-wallet::before {
+	content: "\e994";
+}
+
+.asp-watch::before {
+	content: "\e995";
+}
+
+.asp-weather::before {
+	content: "\e996";
+}
+
+.asp-wechat::before {
+	content: "\e997";
+}
+
+.asp-youtube-outline::before {
+	content: "\e998";
+}
+
+.asp-youtube::before {
+	content: "\e999";
+}
+
+.asp-caret:before {
+	content: "\e99a";
+}
+
+.asp-paypal:before {
+	content: "\e99b";
+}
+
+.asp-delivery:before {
+	content: "\e99c";
+}
+
+.asp-loudspeaker:before {
+	content: "\e99d";
+}
+
+.asp-sign-in:before {
+	content: "\e99e";
+}
+
+.asp-sign-out:before {
+	content: "\e99f";
+}
+
+.asp-wash:before {
+	content: "\e9a0";
+}
+
+.asp-bleach:before {
+	content: "\e9a1";
+}
+
+.asp-hand-wash:before {
+	content: "\e9a2";
+}
+
+.asp-ironing:before {
+	content: "\e9a3";
+}
+
+.asp-dry-clean:before {
+	content: "\e9a4";
+}
+
+.asp-add-user:before {
+	content: "\e9a5";
+}
+
+.asp-compare:before {
+	content: "\e9a6";
+}
+
+.asp-monitor:before {
+	content: "\e9a7";
+}
+
+.asp-printer:before {
+	content: "\e9a8";
+}
+
+.asp-speaker:before {
+	content: "\e9a9";
+}
+
+.asp-download:before {
+	content: "\e9aa";
+}
+
+.asp-upload:before {
+	content: "\e9ab";
+}
+
+.asp-bluetooth-circle:before {
+	content: "\e9ac";
+}
+
+.asp-battery:before {
+	content: "\e9ad";
+}
+
+.asp-sound-waves:before {
+	content: "\e9ae";
+}
+
+.asp-paprika:before {
+	content: "\e9af";
+}
+
+.asp-chili:before {
+	content: "\e9b0";
+}
+
+.asp-canned-food:before {
+	content: "\e9b1";
+}
+
+.asp-toothbrush:before {
+	content: "\e9b2";
+}
+
+.asp-pumpkin:before {
+	content: "\e9b3";
+}
+
+.asp-orange:before {
+	content: "\e9b4";
+}
+
+.asp-broccoli:before {
+	content: "\e9b5";
+}
+
+.asp-sauce:before {
+	content: "\e9b6";
+}
+
+.asp-soap:before {
+	content: "\e9b7";
+}
+
+.asp-toilet-paper:before {
+	content: "\e9b8";
+}
+
+.asp-lemon:before {
+	content: "\e9b9";
+}
+
+.asp-bread:before {
+	content: "\e9ba";
+}
+
+.asp-jam:before {
+	content: "\e9bb";
+}
+
+.asp-fish:before {
+	content: "\e9bc";
+}
+
+.asp-wine:before {
+	content: "\e9bd";
+}
+
+.asp-truck:before {
+	content: "\e9be";
+}
+
+.asp-tag:before {
+	content: "\e9bf";
+}
+
+.asp-eggs:before {
+	content: "\e9c0";
+}
+
+.asp-store:before {
+	content: "\e9c1";
+}
+
+.asp-ham-leg:before {
+	content: "\e9c2";
+}
+
+.asp-discount:before {
+	content: "\e9c3";
+}
+
+.asp-open:before {
+	content: "\e9c4";
+}
+
+.asp-juice:before {
+	content: "\e9c5";
+}
+
+.asp-cheese:before {
+	content: "\e9c6";
+}
+
+.asp-milk:before {
+	content: "\e9c7";
+}
+
+.asp-cashier:before {
+	content: "\e9c8";
+}
+
+.asp-avocado:before {
+	content: "\e9c9";
+}
+
+.asp-apple:before {
+	content: "\e9ca";
+}
+
+.asp-pizza:before {
+	content: "\e9cb";
+}
+
+.asp-scale:before {
+	content: "\e9cc";
+}
+
+.asp-ice-cream:before {
+	content: "\e9cd";
+}
+
+.asp-water-bottle:before {
+	content: "\e9ce";
+}
+
+.asp-carrot:before {
+	content: "\e9cf";
+}
+
+.asp-basket-alt:before {
+	content: "\e9d0";
+}
+
+.asp-corn:before {
+	content: "\e9d1";
+}
+
+.asp-frozen:before {
+	content: "\e9d2";
+}
+
+.asp-lollipop:before {
+	content: "\e9d3";
+}
+
+.asp-pot:before {
+	content: "\e9d4";
+}

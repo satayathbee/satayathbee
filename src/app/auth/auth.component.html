@@ -1,0 +1,27 @@
+<div class="BorderCorner">
+    <div>
+        <table width="100%">
+            <tr>
+                <td class="cpadding">
+                    <div class="header1">AV Underwriting</div>
+                    <div style="clear: both;height: 10px;"></div>
+                </td>
+            </tr>
+            <tr>
+                <td class="form-group form-group-lg cpadding">
+                    <input id="login" [(ngModel)]="password" class="form-control" type="password" placeholder="Password"
+                        style="padding:20px">
+                    <span style="color:red">{{accessError}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button (click)="login()" style="color:white;padding:8px"
+                        class="btn btn-primary btn-lg btn-block primary-btn">
+                        <i class="fa fa-unlock-alt" aria-hidden="true"></i> Access
+                    </button>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
